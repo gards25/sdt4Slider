@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Module>
   <ModulePrefs title="example gadget" />
-  <Content type="url" href="https://intense-temple-95865.herokuapp.com/hello" />
+  <Content type="url" href="https://serene-fjord-78970.herokuapp.com/HelloWorldServlet" />
 </Module>
