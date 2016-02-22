@@ -27,6 +27,7 @@
                 <img src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4%20Site%20Images/Riza.jpg" title="Riza <br> Member of the Month <br> October 2015" />
                 <img src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4%20Site%20Images/Tin.JPG" title="Tin <br> Member of the Month <br> November 2015" />
                 <img src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4%20Site%20Images/Christian.jpg" title="Christian <br> Member of the Month <br> December 2015" />
+                <img src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4%20Site%20Images/Marix.jpg" title="Marix <br> Member of the Month <br> December 2015" />
             </div>
         </div>
     </div>
@@ -42,7 +43,7 @@
          boxRows: 4,                     // For box animations
          animSpeed: 500,                 // Slide transition speed
          pauseTime: 3000,                 // How long each slide will show
-         startSlide: 11,                     // Set starting Slide (0 index)
+         startSlide: 12,                     // Set starting Slide (0 index)
          directionNav: true,             // Next & Prev navigation
          controlNav: true,                 // 1,2,3... navigation
          controlNavThumbs: false,         // Use thumbnails for Control Nav
