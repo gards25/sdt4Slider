@@ -27,10 +27,10 @@
 </style>
 <div id="slideshow" style="position: relative; overflow:hidden"; width: 200px;  height: 89px;>
    <div class="hidden" >
-     <iframe src="https://goo.gl/R1RX5r" name="frame" id="frame" width="200px" height="89px" frameborder="0" scrolling="no" ></iframe>
+     <iframe src="https://goo.gl/7eKK1S" name="frame" id="frame" width="200px" height="89px" frameborder="0" scrolling="no" ></iframe>
    </div> 
    <div class="hidden" >
-     <iframe src="https://goo.gl/PuUn78" name="frame" id="frame" width="200px" height="89px" frameborder="0" scrolling="no" ></iframe>
+     <iframe src="https://goo.gl/jze5gW" name="frame" id="frame" width="200px" height="89px" frameborder="0" scrolling="no" ></iframe>
    </div>
    <div class="hidden" >
      <iframe src="https://goo.gl/yADu5K" name="frame" id="frame" width="200px" height="89px" frameborder="0" scrolling="no" ></iframe>
