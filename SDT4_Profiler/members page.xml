@@ -169,64 +169,6 @@
         <!-- Slides Container -->
         <div u="slides" style="cursor: move; position: absolute; left: 240px; top: 0px; width: 720px; height: 480px; overflow: hidden;">
             <div>
-                <img u="image" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/images/Neri.jpg" />
-                <img u="thumb" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/images/Neri-thumb.jpg" />
-                <div u="thumb" style="z-index: 1; font-family:calibri; font-size:15px;">
-					<br />
-					<table>
-						<tr>
-							<td colspan="3"><h2>Nerissa Panganiban</h2></td>
-						</tr>
-						<tr><td></td></tr>
-						<tr>
-							<td>Nickname</td><td width="1px;">:</td><td>Neri</td>
-						</tr>
-						<tr><td></td></tr>
-						<tr>
-							<td>Position</td><td width="1px;">:</td><td>Team Leader</td>
-						</tr>
-						<tr><td></td></tr>
-						<tr>
-							<td>Nihongo</td><td width="1px;">:</td><td>N2</td>
-						</tr>
-						<tr><td></td></tr>
-						<tr>
-							<td>College</td><td width="1px;">:</td><td>University of Santo Tomas</td>
-						</tr>
-						<tr><td></td></tr>
-						<tr>
-							<td>Course</td><td width="1px;">:</td><td>BS Mathematics,</td>
-						</tr>
-						<tr>
-							<td></td><td width="1px;"></td><td>major in Computer Science</td>
-						</tr>
-						<tr><td></td></tr>
-						<tr>
-							<td>Hobbies</td><td width="1px;">:</td><td>Crafts (not much on the arts,</td>
-						</tr>
-						<tr>
-							<td></td><td width="1px;"></td><td>  though)</td>
-						</tr>
-						<tr><td></td></tr>
-						<tr>
-							<td>Personality</td><td width="1px;">:</td><td>Irrelevant.  You will be assimilated.</td>
-						</tr>
-						<tr>
-							<td></td><td width="1px;"></td><td>  Resistance is futile. One of the</td>
-						</tr>
-						<tr>
-							<td></td><td width="1px;"></td><td>  smartest member of JPH and when</td>
-						</tr>
-						<tr>
-							<td></td><td width="1px;"></td><td>  you hear her talk in Japanese you</td>
-						</tr>
-						<tr>
-							<td></td><td width="1px;"></td><td>  will be impress how fluent she is. </td>
-						</tr>
-					</table>
-				</div>
-            </div>
-            <div>
                 <img u="image" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/images/Gabby.jpg" />
                 <img u="thumb" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/images/Gabby-thumb.jpg" />
                 <div u="thumb" style="z-index: 1; font-family:calibri; font-size:15px;">
