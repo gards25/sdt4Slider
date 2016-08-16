@@ -413,6 +413,87 @@
 					</table>
 				</div>
             </div>
+            <div>
+                <img u="image" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/images/Eri.jpg" />
+                <img u="thumb" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/images/Eri-thumb.jpg" />
+                <div u="thumb" style="z-index: 1; font-family:calibri; font-size:15px;">
+					<br />
+					<table>
+						<tr>
+							<td colspan="3"><h2>Dianne Erika Busa</h2></td>
+						</tr>
+						<tr><td></td></tr>
+						<tr>
+							<td>Nickname</td><td width="1px;">:</td><td>Eri</td>
+						</tr>
+						<tr><td></td></tr>
+						<tr>
+							<td>Position</td><td width="1px;">:</td><td> </td>
+						</tr>
+						<tr><td></td></tr>
+						<tr>
+							<td>Nihongo</td><td width="1px;">:</td><td> </td>
+						</tr>
+						<tr><td></td></tr>
+						<tr>
+							<td>College</td><td width="1px;">:</td><td> </td>
+						</tr>
+						<tr><td></td></tr>
+						<tr>
+							<td>Course</td><td width="1px;">:</td><td> </td>
+						</tr>
+						<tr><td></td></tr>
+						<tr>
+							<td>Hobbies</td><td width="1px;">:</td><td> </td>
+						</tr>
+						<tr><td></td></tr>
+						<tr>
+							<td>Personality</td><td width="1px;">:</td><td> </td>
+						</tr>
+					</table>
+				</div>
+            </div>
+            <div>
+                <img u="image" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/images/Ynna.jpg" />
+                <img u="thumb" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/images/Ynna-thumb.jpg" />
+                <div u="thumb" style="z-index: 1; font-family:calibri; font-size:15px;">
+					<br />
+					<table>
+						<tr>
+							<td colspan="3"><h2>Divina Vendicio</h2></td>
+						</tr>
+						<tr><td></td></tr>
+						<tr>
+							<td>Nickname</td><td width="1px;">:</td><td>Ynna</td>
+						</tr>
+						<tr><td></td></tr>
+						<tr>
+							<td>Position</td><td width="1px;">:</td><td> </td>
+						</tr>
+						<tr><td></td></tr>
+						<tr>
+							<td>Nihongo</td><td width="1px;">:</td><td> </td>
+						</tr>
+						<tr><td></td></tr>
+						<tr>
+							<td>College</td><td width="1px;">:</td><td> </td>
+						</tr>
+						<tr><td></td></tr>
+						<tr>
+							<td>Course</td><td width="1px;">:</td><td> </td>
+						</tr>
+						<tr><td></td></tr>
+						<tr>
+							<td>Hobbies</td><td width="1px;">:</td><td> </td>
+						</tr>
+						<tr><td></td></tr>
+						<tr>
+							<td>Personality</td><td width="1px;">:</td><td> </td>
+						</tr>
+					</table>
+				</div>
+            </div>
+            
         </div>
         
         <!-- Arrow Navigator Skin Begin -->
