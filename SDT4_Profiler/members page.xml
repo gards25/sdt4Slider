@@ -282,28 +282,32 @@
 						</tr>
 						<tr><td></td></tr>
 						<tr>
-							<td>Position</td><td width="1px;">:</td><td> </td>
+							<td>Position</td><td width="1px;">:</td><td>Member</td>
 						</tr>
 						<tr><td></td></tr>
 						<tr>
-							<td>Nihongo</td><td width="1px;">:</td><td> </td>
+							<td>Nihongo</td><td width="1px;">:</td><td>N4</td>
 						</tr>
 						<tr><td></td></tr>
 						<tr>
-							<td>College</td><td width="1px;">:</td><td> </td>
+							<td>College</td><td width="1px;">:</td><td>Pamantasan ng Lungsod ng Muntinlupa</td>
 						</tr>
 						<tr><td></td></tr>
 						<tr>
-							<td>Course</td><td width="1px;">:</td><td> </td>
+							<td>Course</td><td width="1px;">:</td><td>BS Information Technology</td>
 						</tr>
 						<tr><td></td></tr>
 						<tr>
-							<td>Hobbies</td><td width="1px;">:</td><td> </td>
+							<td>Hobbies</td><td width="1px;">:</td><td>Photography, reading, wandering</td>
 						</tr>
 						<tr><td></td></tr>
 						<tr>
-							<td>Personality</td><td width="1px;">:</td><td> </td>
+							<td>Personality</td><td width="1px;">:</td><td>Independent.Happy-go-lucky.</td>
 						</tr>
+						<tr>
+							<td></td><td width="1px;">:</td><td>Easy going.Frugal.:P</td>
+						</tr>
+						
 					</table>
 				</div>
             </div>
@@ -375,7 +379,7 @@
 						</tr>
 						<tr><td></td></tr>
 						<tr>
-							<td>Nihongo</td><td width="1px;">:</td><td>N4</td>
+							<td>Nihongo</td><td width="1px;">:</td><td>N3</td>
 						</tr>
 						<tr><td></td></tr>
 						<tr>
@@ -438,10 +442,7 @@
 						</tr>
 						<tr><td></td></tr>
 						<tr>
-							<td>Course</td><td width="1px;">:</td><td>Bachelor of Science in Electronics</td>
-						</tr>
-						<tr>
-							<td></td><td width="1px;"></td><td>Engineering</td>
+							<td>Course</td><td width="1px;">:</td><td>BS Electronics Engineering</td>
 						</tr>
 						<tr><td></td></tr>
 						<tr>
@@ -547,7 +548,10 @@
 						</tr>
 						<tr><td></td></tr>
 						<tr>
-							<td>College</td><td width="1px;">:</td><td>Polytechnic University of the Philippines - Taguig</td>
+							<td>College</td><td width="1px;">:</td><td>Polytechnic University of the Philippines</td>
+						</tr>
+						<tr>
+							<td></td><td width="1px;"></td><td>- Taguig</td>
 						</tr>
 						<tr><td></td></tr>
 						<tr>
