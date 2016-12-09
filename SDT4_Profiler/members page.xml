@@ -3,7 +3,7 @@
 <ModulePrefs title="hello world example" />
 <Content type="html">
 <![CDATA[
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
 <head>
     <meta charset="utf-8">
@@ -50,11 +50,11 @@
         }
     </style>
     <!-- it works the same with all jquery version from 1.x to 2.x -->
-    <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <!-- use jssor.slider.mini.js (40KB) instead for release -->
     <!-- jssor.slider.mini.js = (jssor.js + jssor.slider.js) -->
-    <script type="text/javascript" src="js/jssor.js"></script>
-    <script type="text/javascript" src="js/jssor.slider.js"></script>
+    <script type="text/javascript" src="https://raw.githack.com/gards25/sdt4Slider/master/js/jssor.js"></script>
+    <script type="text/javascript" src="https://raw.githack.com/gards25/sdt4Slider/master/js/jssor.slider.js"></script>
     <script>
         jQuery(document).ready(function ($) {
 			
@@ -144,22 +144,20 @@
     <!-- You can move inline styles to css file or css block. -->
     <div id="slider1_container" style="position: relative; top: 0px; left: 0px; width: 960px;
         height: 480px; background: #191919; overflow: hidden;">
-
         <!-- Loading Screen -->
         <div u="loading" style="position: absolute; top: 0px; left: 0px;">
             <div style="filter: alpha(opacity=70); opacity:0.7; position: absolute; display: block;
                 background-color: #000000; top: 0px; left: 0px;width: 100%;height:100%;">
             </div>
-            <div style="position: absolute; display: block; background: url(images/loading.gif) no-repeat center center;
+            <div style="position: absolute; display: block; background: url(https://raw.githubusercontent.com/gards25/sdt4Slider/master/images/loading.gif) no-repeat center center;
                 top: 0px; left: 0px;width: 100%;height:100%;">
             </div>
         </div>
-
         <!-- Slides Container -->
         <div u="slides" style="cursor: move; position: absolute; left: 240px; top: 0px; width: 720px; height: 480px; overflow: hidden;">
             <div>
-                <img u="image" src="images/Neri.jpg" />
-                <img u="thumb" src="images/Neri-thumb.jpg" />
+                <img u="image" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/images/Neri.jpg" />
+                <img u="thumb" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/images/Neri-thumb.jpg" />
                 <div u="thumb" style="z-index: 1; font-family:calibri; font-size:15px;">
 					<br />
 					<table>
@@ -216,8 +214,8 @@
 				</div>
             </div>
             <div>
-                <img u="image" src="images/Gabby.jpg" />
-                <img u="thumb" src="images/Gabby-thumb.jpg" />
+                <img u="image" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/images/Gabby.jpg" />
+                <img u="thumb" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/images/Gabby-thumb.jpg" />
                 <div u="thumb" style="z-index: 1; font-family:calibri; font-size:15px;">
 					<br />
 					<table>
@@ -265,8 +263,8 @@
 				</div>
             </div>
             <div>
-                <img u="image" src="images/John.jpg" />
-                <img u="thumb" src="images/John-thumb.jpg" />
+                <img u="image" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/images/John.jpg" />
+                <img u="thumb" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/images/John-thumb.jpg" />
                 <div u="thumb" style="z-index: 1; font-family:calibri; font-size:15px;">
 					<br />
 					<table>
@@ -323,8 +321,8 @@
 				</div>
             </div>
             <div>
-                <img u="image" src="images/Gards.jpg" />
-                <img u="thumb" src="images/Gards-thumb.jpg" />
+                <img u="image" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/images/Gards.jpg" />
+                <img u="thumb" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/images/Gards-thumb.jpg" />
                 <div u="thumb" style="z-index: 1; font-family:calibri; font-size:15px;">
 					<br />
 					<table>
@@ -378,8 +376,8 @@
 				</div>
             </div>
             <div>
-                <img u="image" src="images/Dana.jpg" />
-                <img u="thumb" src="images/Dana.jpg" />
+                <img u="image" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/images/Dana.jpg" />
+                <img u="thumb" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/images/Dana.jpg" />
                 <div u="thumb" style="z-index: 1; font-family:calibri; font-size:15px;">
 					<br />
 					<table>
@@ -430,8 +428,8 @@
 				</div>
             </div>
             <div>
-                <img u="image" src="images/Riza.jpg" />
-                <img u="thumb" src="images/Riza-thumb.jpg" />
+                <img u="image" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/images/Riza.jpg" />
+                <img u="thumb" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/images/Riza-thumb.jpg" />
                 <div u="thumb" style="z-index: 1; font-family:calibri; font-size:15px;">
 					<br />
 					<table>
@@ -488,8 +486,8 @@
 				</div>
             </div>
             <div>
-                <img u="image" src="images/Micka.jpg" />
-                <img u="thumb" src="images/Micka-thumb.jpg" />
+                <img u="image" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/images/Micka.jpg" />
+                <img u="thumb" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/images/Micka-thumb.jpg" />
                 <div u="thumb" style="z-index: 1; font-family:calibri; font-size:15px;">
 					<br />
 					<table>
@@ -543,8 +541,8 @@
 				</div>
             </div>
             <div>
-                <img u="image" src="images/Lara.jpg" />
-                <img u="thumb" src="images/Lara-thumb.jpg" />
+                <img u="image" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/images/Lara.jpg" />
+                <img u="thumb" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/images/Lara-thumb.jpg" />
                 <div u="thumb" style="z-index: 1; font-family:calibri; font-size:15px;">
 					<br />
 					<table>
@@ -565,7 +563,7 @@
 						</tr>
 						<tr><td></td></tr>
 						<tr>
-							<td>College</td><td width="1px;">:</td><td>De La Salle University - Dasmariñas</td>
+							<td>College</td><td width="1px;">:</td><td>De La Salle University - Dasmari?as</td>
 						</tr>
 						<tr><td></td></tr>
 						<tr>
@@ -592,8 +590,8 @@
 				</div>
             </div>
             <div>
-                <img u="image" src="images/Bryan.jpg" style="z-index:0"/>
-                <img u="thumb" src="images/Bryan-thumb.jpg" />
+                <img u="image" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/images/Bryan.jpg" style="z-index:0"/>
+                <img u="thumb" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/images/Bryan-thumb.jpg" />
                 <div u="thumb" style="z-index: 1; font-family:calibri; font-size:15px;">
 					<br />
 					<table>
@@ -647,8 +645,8 @@
 				</div>
             </div>
             <div>
-                <img u="image" src="images/Tin.jpg" />
-                <img u="thumb" src="images/Tin-thumb.jpg" />
+                <img u="image" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/images/Tin.jpg" />
+                <img u="thumb" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/images/Tin-thumb.jpg" />
                 <div u="thumb" style="z-index: 1; font-family:calibri; font-size:15px;">
 					<br />
 					<table>
@@ -702,8 +700,8 @@
 				</div>
             </div>
             <div>
-                <img u="image" src="images/Christian.jpg" />
-                <img u="thumb" src="images/Christian-thumb.jpg" />
+                <img u="image" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/images/Christian.jpg" />
+                <img u="thumb" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/images/Christian-thumb.jpg" />
                 <div u="thumb" style="z-index: 1; font-family:calibri; font-size:15px;">
 					<br />
 					<table>
@@ -771,7 +769,6 @@
             	position: absolute;
             	cursor: pointer;
             	display: block;
-                background: url(../img/a17.png) no-repeat;
                 overflow:hidden;
             }
             .jssora05l { background-position: -10px -40px; }
@@ -836,7 +833,6 @@
                 }
                 .jssort02 .p:hover .c, .jssort02 .pav:hover .c, .jssort02 .pav .c 
                 {
-                	background: url(../img/t01.png) center center;
                 	border-width: 0px;
                     top: 2px;
                     left: 2px;
