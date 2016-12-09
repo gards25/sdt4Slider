@@ -168,61 +168,64 @@
 
         <!-- Slides Container -->
         <div u="slides" style="cursor: move; position: absolute; left: 240px; top: 0px; width: 720px; height: 480px; overflow: hidden;">
-            <!--<div>
-                <img u="image" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/images/Kenx.jpg" />
-                <img u="thumb" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/images/Kenx-thumb.jpg" />
+            <div>
+                <img u="image" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/images/Neri.jpg" />
+                <img u="thumb" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/images/Neri-thumb.jpg" />
                 <div u="thumb" style="z-index: 1; font-family:calibri; font-size:15px;">
 					<br />
 					<table>
 						<tr>
-							<td colspan="3"><h2>Kenneth Leoncio C. Reyes</h2></td>
+							<td colspan="3"><h2>Nerissa Panganiban</h2></td>
 						</tr>
 						<tr><td></td></tr>
 						<tr>
-							<td>Nickname</td><td width="1px;">:</td><td>KenX, Lakay</td>
+							<td>Nickname</td><td width="1px;">:</td><td>Nerissa</td>
 						</tr>
 						<tr><td></td></tr>
 						<tr>
-							<td>Position</td><td width="1px;">:</td><td>Assistant Manager</td>
+							<td>Position</td><td width="1px;">:</td><td>Team Leader</td>
 						</tr>
 						<tr><td></td></tr>
 						<tr>
-							<td>Nihongo</td><td width="1px;">:</td><td>N3</td>
+							<td>Nihongo</td><td width="1px;">:</td><td>N2</td>
 						</tr>
 						<tr><td></td></tr>
 						<tr>
-							<td>College</td><td width="1px;">:</td><td>University of the Philippines</td>
-						</tr>
-						<tr>
-							<td></td><td width="1px;"></td><td>- Diliman</td>
+							<td>College</td><td width="1px;">:</td><td>University of Santo Tomas</td>
 						</tr>
 						<tr><td></td></tr>
 						<tr>
-							<td>Course</td><td width="1px;">:</td><td>BS Chemical Engineering</td>
+							<td>Course</td><td width="1px;">:</td><td>BS Mathematics,</td>
+						</tr>
+						<tr>
+							<td></td><td width="1px;"></td><td>major in Computer Science</td>
 						</tr>
 						<tr><td></td></tr>
 						<tr>
-							<td>Hobbies</td><td width="1px;">:</td><td>Collecting Joker Cards/ Collecting</td>
+							<td>Hobbies</td><td width="1px;">:</td><td>Crafts (not much on the arts,</td>
 						</tr>
 						<tr>
-							<td></td><td width="1px;"></td><td>Pokemon/ Clash</td>
+							<td></td><td width="1px;"></td><td>  though)</td>
 						</tr>
 						<tr><td></td></tr>
 						<tr>
-							<td>Personality</td><td width="1px;">:</td><td>Believes in the inherent goodness</td>
+							<td>Personality</td><td width="1px;">:</td><td>Irrelevant.  You will be assimilated.</td>
 						</tr>
 						<tr>
-							<td></td><td width="1px;"></td><td>of humans and also believes</td>
+							<td></td><td width="1px;"></td><td>  Resistance is futile. One of the</td>
 						</tr>
 						<tr>
-							<td></td><td width="1px;"></td><td>that it is never too late for</td>
+							<td></td><td width="1px;"></td><td>  smartest member of JPH and when</td>
 						</tr>
 						<tr>
-							<td></td><td width="1px;"></td><td>anyone to change for the better.</td>
+							<td></td><td width="1px;"></td><td>  you hear her talk in Japanese you</td>
+						</tr>
+						<tr>
+							<td></td><td width="1px;"></td><td>  will be impress how fluent she is. </td>
 						</tr>
 					</table>
 				</div>
-            </div>-->
+            </div>
             <div>
                 <img u="image" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/images/Gabby.jpg" />
                 <img u="thumb" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/images/Gabby-thumb.jpg" />
@@ -272,18 +275,73 @@
 					</table>
 				</div>
             </div>
-            <!--<div>
-                <img u="image" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/images/Marix.jpg" />
-                <img u="thumb" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/images/Marix-thumb.jpg" />
+            <div>
+                <img u="image" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/images/Gards.jpg" />
+                <img u="thumb" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/images/Gards-thumb.jpg" />
                 <div u="thumb" style="z-index: 1; font-family:calibri; font-size:15px;">
 					<br />
 					<table>
 						<tr>
-							<td colspan="3"><h2>Maricar Gutierrez</h2></td>
+							<td colspan="3"><h2>Garde Bee Ladines</h2></td>
 						</tr>
 						<tr><td></td></tr>
 						<tr>
-							<td>Nickname</td><td width="1px;">:</td><td>Marix</td>
+							<td>Nickname</td><td width="1px;">:</td><td>Gards</td>
+						</tr>
+						<tr><td></td></tr>
+						<tr>
+							<td>Position</td><td width="1px;">:</td><td>Member</td>
+						</tr>
+						<tr><td></td></tr>
+						<tr>
+							<td>Nihongo</td><td width="1px;">:</td><td>N2</td>
+						</tr>
+						<tr><td></td></tr>
+						<tr>
+							<td>College</td><td width="1px;">:</td><td>AMA Computer College</td>
+						</tr>
+						<tr><td></td></tr>
+						<tr>
+							<td>Course</td><td width="1px;">:</td><td>BS Information Technology</td>
+						</tr>
+						<tr><td></td></tr>
+						<tr>
+							<td>Hobbies</td><td width="1px;">:</td><td>Gaming</td>
+						</tr>
+						<tr><td></td></tr>
+						<tr>
+							<td>Personality</td><td width="1px;">:</td><td>A playful person who love  </td>
+						</tr>
+						<tr>
+							<td></td><td width="1px;"></td><td>challenges and friendly     </td>
+						</tr>
+						<tr>
+							<td></td><td width="1px;"></td><td>competitions, despite of his    </td>
+						</tr>
+						<tr>
+							<td></td><td width="1px;"></td><td>decisiveness to grow, he still loves   </td>
+						</tr>
+						<tr>
+							<td></td><td width="1px;"></td><td>to procastinate and be like a</td>
+						</tr>
+						<tr>
+							<td></td><td width="1px;"></td><td> Otaku at home.</td>
+						</tr>
+					</table>
+				</div>
+            </div>
+            <div>
+                <img u="image" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/images/Dana.jpg" />
+                <img u="thumb" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/images/Dana-thumb.jpg" />
+                <div u="thumb" style="z-index: 1; font-family:calibri; font-size:15px;">
+					<br />
+					<table>
+						<tr>
+							<td colspan="3"><h2>Dana Crizaldo</h2></td>
+						</tr>
+						<tr><td></td></tr>
+						<tr>
+							<td>Nickname</td><td width="1px;">:</td><td>Dana</td>
 						</tr>
 						<tr><td></td></tr>
 						<tr>
@@ -295,10 +353,7 @@
 						</tr>
 						<tr><td></td></tr>
 						<tr>
-							<td>College</td><td width="1px;">:</td><td>Pamantasan ng Lungsod ng</td>
-						</tr>
-						<tr>
-							<td></td><td width="1px;"></td><td>Muntinlupa</td>
+							<td>College</td><td width="1px;">:</td><td>San Beda College Alabang</td>
 						</tr>
 						<tr><td></td></tr>
 						<tr>
@@ -306,19 +361,140 @@
 						</tr>
 						<tr><td></td></tr>
 						<tr>
-							<td>Hobbies</td><td width="1px;">:</td><td>Photography, reading, wandering</td>
+							<td>Hobbies</td><td width="1px;">:</td><td>Shopping, Traveling</td>
 						</tr>
 						<tr><td></td></tr>
 						<tr>
-							<td>Personality</td><td width="1px;">:</td><td>Independent.Happy-go-lucky.</td>
+							<td>Personality</td><td width="1px;">:</td><td>Productive procrastinator. </td>
 						</tr>
 						<tr>
-							<td></td><td width="1px;"></td><td>Easy going.Frugal.:P</td>
+							<td></td><td width="1px;"></td><td> Visionary pragmatist. Adventurous. </td>
 						</tr>
-						
+						<tr>
+							<td></td><td width="1px;"></td><td> Enjoys discovering the undiscovered. </td>
+						</tr>
+						<tr>
+							<td></td><td width="1px;"></td><td> Inlove with the art of travel and </td>
+						</tr>
+						<tr>
+							<td></td><td width="1px;"></td><td> fashion. Optimistic. Trustworthy. </td>
+						</tr>
 					</table>
 				</div>
-            </div>-->
+            </div>
+            <div>
+                <img u="image" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/images/Riza.jpg" />
+                <img u="thumb" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/images/Riza-thumb.jpg" />
+                <div u="thumb" style="z-index: 1; font-family:calibri; font-size:15px;">
+					<br />
+					<table>
+						<tr>
+							<td colspan="3"><h2>Riza Anin</h2></td>
+						</tr>
+						<tr><td></td></tr>
+						<tr>
+							<td>Nickname</td><td width="1px;">:</td><td>Riza</td>
+						</tr>
+						<tr><td></td></tr>
+						<tr>
+							<td>Position</td><td width="1px;">:</td><td>Member</td>
+						</tr>
+						<tr><td></td></tr>
+						<tr>
+							<td>Nihongo</td><td width="1px;">:</td><td>N3</td>
+						</tr>
+						<tr><td></td></tr>
+						<tr>
+							<td>College</td><td width="1px;">:</td><td>Saint Louis University</td>
+						</tr>
+						<tr><td></td></tr>
+						<tr>
+							<td>Course</td><td width="1px;">:</td><td>BS Electronics & Communications</td>
+						</tr>
+						<tr>
+							<td></td><td width="1px;"></td><td> Engineering</td>
+						</tr>
+						<tr><td></td></tr>
+						<tr>
+							<td>Hobbies</td><td width="1px;">:</td><td>Sleeping</td>
+						</tr>
+						<tr><td></td></tr>
+						<tr>
+							<td>Personality</td><td width="1px;">:</td><td>The Madam of SDT4, she might </td>
+						</tr>
+						<tr>
+							<td></td><td width="1px;"></td><td>look intimidating to others due to</td>
+						</tr>
+						<tr>
+							<td></td><td width="1px;"></td><td>  her introvert personality. A very </td>
+						</tr>
+						<tr>
+							<td></td><td width="1px;"></td><td> kind  and helpful person that will </td>
+						</tr>
+						<tr>
+							<td></td><td width="1px;"></td><td> aid you in case that you need her  </td>
+						</tr>
+						<tr>
+							<td></td><td width="1px;"></td><td> help. </td>
+						</tr>
+					</table>
+				</div>
+            </div>
+            <div>
+                <img u="image" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/images/Micka.jpg" />
+                <img u="thumb" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/images/Micka-thumb.jpg" />
+                <div u="thumb" style="z-index: 1; font-family:calibri; font-size:15px;">
+					<br />
+					<table>
+						<tr>
+							<td colspan="3"><h2>Micka Kaye Sanchez</h2></td>
+						</tr>
+						<tr><td></td></tr>
+						<tr>
+							<td>Nickname</td><td width="1px;">:</td><td>Micka</td>
+						</tr>
+						<tr><td></td></tr>
+						<tr>
+							<td>Position</td><td width="1px;">:</td><td>Member</td>
+						</tr>
+						<tr><td></td></tr>
+						<tr>
+							<td>Nihongo</td><td width="1px;">:</td><td>N4</td>
+						</tr>
+						<tr><td></td></tr>
+						<tr>
+							<td>College</td><td width="1px;">:</td><td>De La Salle University </td>
+						</tr>
+						<tr><td></td></tr>
+						<tr>
+							<td>Course</td><td width="1px;">:</td><td>BS Information Technology</td>
+						</tr>
+						<tr><td></td></tr>
+						<tr>
+							<td>Hobbies</td><td width="1px;">:</td><td>Shopping</td>
+						</tr>
+						<tr><td></td></tr>
+						<tr>
+							<td>Personality</td><td width="1px;">:</td><td>The one and only fashionista </td>
+						</tr>
+						<tr>
+							<td></td><td width="1px;"></td><td>member of SDT4, she is outgoing  </td>
+						</tr>
+						<tr>
+							<td></td><td width="1px;"></td><td> but when it comes to work , she  </td>
+						</tr>
+						<tr>
+							<td></td><td width="1px;"></td><td> always devote herself to produce a  </td>
+						</tr>
+						<tr>
+							<td></td><td width="1px;"></td><td>high quality service that will  </td>
+						</tr>
+						<tr>
+							<td></td><td width="1px;"></td><td>meet and exceed client's standards. </td>
+						</tr>
+					</table>
+				</div>
+            </div>
             <div>
                 <img u="image" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/images/Lara.jpg" />
                 <img u="thumb" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/images/Lara-thumb.jpg" />
@@ -369,6 +545,61 @@
 				</div>
             </div>
             <div>
+                <img u="image" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/images/Bryan.jpg" style="z-index:0"/>
+                <img u="thumb" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/images/Bryan-thumb.jpg" />
+                <div u="thumb" style="z-index: 1; font-family:calibri; font-size:15px;">
+					<br />
+					<table>
+						<tr>
+							<td colspan="3"><h2>Kevin Bryan Jurado</h2></td>
+						</tr>
+						<tr><td></td></tr>
+						<tr>
+							<td>Nickname</td><td width="1px;">:</td><td>Bry</td>
+						</tr>
+						<tr><td></td></tr>
+						<tr>
+							<td>Position</td><td width="1px;">:</td><td>Member</td>
+						</tr>
+						<tr><td></td></tr>
+						<tr>
+							<td>Nihongo</td><td width="1px;">:</td><td>N4</td>
+						</tr>
+						<tr><td></td></tr>
+						<tr>
+							<td>College</td><td width="1px;">:</td><td>San Beda College Alabang</td>
+						</tr>
+						<tr><td></td></tr>
+						<tr>
+							<td>Course</td><td width="1px;">:</td><td>BS Information Technology</td>
+						</tr>
+						<tr><td></td></tr>
+						<tr>
+							<td>Hobbies</td><td width="1px;">:</td><td>Gaming / Work-out</td>
+						</tr>
+						<tr><td></td></tr>
+						<tr>
+							<td>Personality</td><td width="1px;">:</td><td>He may look serious like having </td>
+						</tr>
+						<tr>
+							<td></td><td width="1px;"></td><td> deep thoughts on his mind but    </td>
+						</tr>
+						<tr>
+							<td></td><td width="1px;"></td><td>don't let it fool you, he is just   </td>
+						</tr>
+						<tr>
+							<td></td><td width="1px;"></td><td>bored, eagerly want to go home so</td>
+						</tr>
+						<tr>
+							<td></td><td width="1px;"></td><td>  he could kill as  much as he can in   </td>
+						</tr>
+						<tr>
+							<td></td><td width="1px;"></td><td>  Call of Duty.</td>
+						</tr>
+					</table>
+				</div>
+            </div>
+            <div>
                 <img u="image" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/images/Tin.jpg" />
                 <img u="thumb" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/images/Tin-thumb.jpg" />
                 <div u="thumb" style="z-index: 1; font-family:calibri; font-size:15px;">
@@ -387,7 +618,7 @@
 						</tr>
 						<tr><td></td></tr>
 						<tr>
-							<td>Nihongo</td><td width="1px;">:</td><td>N3</td>
+							<td>Nihongo</td><td width="1px;">:</td><td>N4</td>
 						</tr>
 						<tr><td></td></tr>
 						<tr>
@@ -430,11 +661,11 @@
 					<br />
 					<table>
 						<tr>
-							<td colspan="3"><h2>Christian Francis Cequina</h2></td>
+							<td colspan="3"><h2>Christian Cequina</h2></td>
 						</tr>
 						<tr><td></td></tr>
 						<tr>
-							<td>Nickname</td><td width="1px;">:</td><td>Christian</td>
+							<td>Nickname</td><td width="1px;">:</td><td>Xtian</td>
 						</tr>
 						<tr><td></td></tr>
 						<tr>
@@ -442,7 +673,7 @@
 						</tr>
 						<tr><td></td></tr>
 						<tr>
-							<td>Nihongo</td><td width="1px;">:</td><td>N3</td>
+							<td>Nihongo</td><td width="1px;">:</td><td>N4</td>
 						</tr>
 						<tr><td></td></tr>
 						<tr>
@@ -450,11 +681,14 @@
 						</tr>
 						<tr><td></td></tr>
 						<tr>
-							<td>Course</td><td width="1px;">:</td><td>BS Electronics Engineering</td>
+							<td>Course</td><td width="1px;">:</td><td>Bachelor of Science in Electronics</td>
+						</tr>
+						<tr>
+							<td></td><td width="1px;"></td><td>Engineering</td>
 						</tr>
 						<tr><td></td></tr>
 						<tr>
-							<td>Hobbies</td><td width="1px;">:</td><td>Basketball, playing guitar and piano</td>
+							<td>Hobbies</td><td width="1px;">:</td><td>Basketball / Flirt</td>
 						</tr>
 						<tr><td></td></tr>
 						<tr>
@@ -472,129 +706,6 @@
 					</table>
 				</div>
             </div>
-            <!--<div>
-                <img u="image" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/images/Eri.jpg" />
-                <img u="thumb" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/images/Eri-thumb.jpg" />
-                <div u="thumb" style="z-index: 1; font-family:calibri; font-size:15px;">
-					<br />
-					<table>
-						<tr>
-							<td colspan="3"><h2>Dianne Erika Busa</h2></td>
-						</tr>
-						<tr><td></td></tr>
-						<tr>
-							<td>Nickname</td><td width="1px;">:</td><td>Eri</td>
-						</tr>
-						<tr><td></td></tr>
-						<tr>
-							<td>Position</td><td width="1px;">:</td><td>Member</td>
-						</tr>
-						<tr><td></td></tr>
-						<tr>
-							<td>Nihongo</td><td width="1px;">:</td><td>N3</td>
-						</tr>
-						<tr><td></td></tr>
-						<tr>
-							<td>College</td><td width="1px;">:</td><td>Polytechnic University of the</td>
-						</tr>
-						<tr>
-							<td></td><td width="1px;"></td><td>Philippines</td>
-						</tr>
-						<tr><td></td></tr>
-						<tr>
-							<td>Course</td><td width="1px;">:</td><td>BS Information Technology</td>
-						</tr>
-						<tr><td></td></tr>
-						<tr>
-							<td>Hobbies</td><td width="1px;">:</td><td>Reading books, playing games,</td>
-						</tr>
-						<tr>
-							<td></td><td width="1px;"></td><td>watching anime.</td>
-						</tr>
-						<tr><td></td></tr>
-						<tr>
-							<td>Personality</td><td width="1px;">:</td><td>I work diligently as required.</td>
-						</tr>
-						<tr>
-							<td></td><td width="1px;"></td><td>I am somewhat an introvert but</td>
-						</tr>
-						<tr>
-							<td></td><td width="1px;"></td><td>I also value my relationship with</td>
-						</tr>
-						<tr>
-							<td></td><td width="1px;"></td><td>other people and social activities.</td>
-						</tr>
-						<tr>
-							<td></td><td width="1px;"></td><td>I really don't pursue excellence</td>
-						</tr>
-						<tr>
-							<td></td><td width="1px;"></td><td>in all degrees in my life,</td>
-						</tr>
-						<tr>
-							<td></td><td width="1px;"></td><td>I just do my best and </td>
-						</tr>
-						<tr>
-							<td></td><td width="1px;"></td><td>earn what I do deserve.</td>
-						</tr>
-					</table>
-				</div>
-            </div>
-            <div>
-                <img u="image" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/images/Ynna.jpg" />
-                <img u="thumb" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/images/Ynna-thumb.jpg" />
-                <div u="thumb" style="z-index: 1; font-family:calibri; font-size:15px;">
-					<br />
-					<table>
-						<tr>
-							<td colspan="3"><h2>Divina Vendicio</h2></td>
-						</tr>
-						<tr><td></td></tr>
-						<tr>
-							<td>Nickname</td><td width="1px;">:</td><td>Ynna</td>
-						</tr>
-						<tr><td></td></tr>
-						<tr>
-							<td>Position</td><td width="1px;">:</td><td>Member</td>
-						</tr>
-						<tr><td></td></tr>
-						<tr>
-							<td>Nihongo</td><td width="1px;">:</td><td>N4</td>
-						</tr>
-						<tr><td></td></tr>
-						<tr>
-							<td>College</td><td width="1px;">:</td><td>Polytechnic University of the</td>
-						</tr>
-						<tr>
-							<td></td><td width="1px;"></td><td>Philippines - Taguig</td>
-						</tr>
-						<tr><td></td></tr>
-						<tr>
-							<td>Course</td><td width="1px;">:</td><td>BS Information Technology</td>
-						</tr>
-						<tr><td></td></tr>
-						<tr>
-							<td>Hobbies</td><td width="1px;">:</td><td>Watching movies and western series.</td>
-						</tr>
-						<tr><td></td></tr>
-						<tr>
-							<td>Personality</td><td width="1px;">:</td><td>Loves to hangout with equally </td>
-						</tr>
-						<tr>
-							<td></td><td width="1px;"></td><td>outgoing people but also loves</td>
-						</tr>
-						<tr>
-							<td></td><td width="1px;"></td><td>spending time alone. </td>
-						</tr>
-						<tr>
-							<td></td><td width="1px;"></td><td>Tends to laugh at petty things cause  </td>
-						</tr>
-						<tr>
-							<td></td><td width="1px;"></td><td>she simply loves to smile and laugh.  </td>
-						</tr>
-					</table>
-				</div>
-            </div>-->
-            
         </div>
         
         <!-- Arrow Navigator Skin Begin -->
