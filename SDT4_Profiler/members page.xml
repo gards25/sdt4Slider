@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Module>
-<ModulePrefs title="hello world example" />
-<Content type="html">
-<![CDATA[
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8">
@@ -53,8 +48,8 @@
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <!-- use jssor.slider.mini.js (40KB) instead for release -->
     <!-- jssor.slider.mini.js = (jssor.js + jssor.slider.js) -->
-    <script type="text/javascript" src="https://raw.githack.com/gards25/sdt4Slidermaster/js/jssor.js"></script>
-    <script type="text/javascript" src="https://raw.githack.com/gards25/sdt4Slidermaster/js/jssor.slider.js"></script>
+    <script type="text/javascript" src="https://raw.githack.com/gards25/sdt4Slider/master/SDT4_Profiler/js/jssor.js"></script>
+    <script type="text/javascript" src="https://raw.githack.com/gards25/sdt4Slider/master/SDT4_Profiler/js/jssor.slider.js"></script>
     <script>
         jQuery(document).ready(function ($) {
 			
@@ -94,11 +89,11 @@
             ];
             var options = {
                 $AutoPlay: true,                                    //[Optional] Whether to auto play, to enable slideshow, this option must be set to true, default value is false
-                $AutoPlayInterval: 5000,                            //[Optional] Interval (in milliseconds) to go for next slide since the previous stopped if the slider is auto playing, default value is 3000
+                $AutoPlayInterval: 4000,                            //[Optional] Interval (in milliseconds) to go for next slide since the previous stopped if the slider is auto playing, default value is 3000
                 $PauseOnHover: 1,                                //[Optional] Whether to pause when mouse over if a slider is auto playing, 0 no pause, 1 pause for desktop, 2 pause for touch device, 3 pause for desktop and touch device, 4 freeze for desktop, 8 freeze for touch device, 12 freeze for desktop and touch device, default value is 1
                 $DragOrientation: 3,                                //[Optional] Orientation to drag slide, 0 no drag, 1 horizental, 2 vertical, 3 either, default value is 1 (Note that the $DragOrientation should be the same as $PlayOrientation when $DisplayPieces is greater than 1, or parking position is not 0)
                 $ArrowKeyNavigation: true,   			            //[Optional] Allows keyboard (arrow key) navigation or not, default value is false
-                $SlideDuration: 600,                                //Specifies default duration (swipe) for slide in milliseconds
+                $SlideDuration: 300,                                //Specifies default duration (swipe) for slide in milliseconds
                 $SlideshowOptions: {                                //[Optional] Options to specify and enable slideshow or not
                     $Class: $JssorSlideshowRunner$,                 //[Required] Class to create instance of slideshow
                     $Transitions: _SlideshowTransitions,            //[Required] An array of slideshow transitions to play slideshow
@@ -144,20 +139,22 @@
     <!-- You can move inline styles to css file or css block. -->
     <div id="slider1_container" style="position: relative; top: 0px; left: 0px; width: 960px;
         height: 480px; background: #191919; overflow: hidden;">
+
         <!-- Loading Screen -->
         <div u="loading" style="position: absolute; top: 0px; left: 0px;">
             <div style="filter: alpha(opacity=70); opacity:0.7; position: absolute; display: block;
                 background-color: #000000; top: 0px; left: 0px;width: 100%;height:100%;">
             </div>
-            <div style="position: absolute; display: block; background: url(https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/imagesloading.gif) no-repeat center center;
+            <div style="position: absolute; display: block; background: url(https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/images/loading.gif) no-repeat center center;
                 top: 0px; left: 0px;width: 100%;height:100%;">
             </div>
         </div>
+
         <!-- Slides Container -->
         <div u="slides" style="cursor: move; position: absolute; left: 240px; top: 0px; width: 720px; height: 480px; overflow: hidden;">
             <div>
-                <img u="image" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/imagesNeri.jpg" />
-                <img u="thumb" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/imagesNeri-thumb.jpg" />
+                <img u="image" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/images/Neri.jpg" />
+                <img u="thumb" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/images/Neri-thumb.jpg" />
                 <div u="thumb" style="z-index: 1; font-family:calibri; font-size:15px;">
 					<br />
 					<table>
@@ -214,8 +211,8 @@
 				</div>
             </div>
             <div>
-                <img u="image" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/imagesGabby.jpg" />
-                <img u="thumb" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/imagesGabby-thumb.jpg" />
+                <img u="image" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/images/Gabby.jpg" />
+                <img u="thumb" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/images/Gabby-thumb.jpg" />
                 <div u="thumb" style="z-index: 1; font-family:calibri; font-size:15px;">
 					<br />
 					<table>
@@ -263,8 +260,8 @@
 				</div>
             </div>
             <div>
-                <img u="image" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/imagesJohn.jpg" />
-                <img u="thumb" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/imagesJohn-thumb.jpg" />
+                <img u="image" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/images/John.jpg" />
+                <img u="thumb" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/images/John-thumb.jpg" />
                 <div u="thumb" style="z-index: 1; font-family:calibri; font-size:15px;">
 					<br />
 					<table>
@@ -321,8 +318,8 @@
 				</div>
             </div>
             <div>
-                <img u="image" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/imagesGards.jpg" />
-                <img u="thumb" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/imagesGards-thumb.jpg" />
+                <img u="image" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/images/Gards.jpg" />
+                <img u="thumb" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/images/Gards-thumb.jpg" />
                 <div u="thumb" style="z-index: 1; font-family:calibri; font-size:15px;">
 					<br />
 					<table>
@@ -376,8 +373,8 @@
 				</div>
             </div>
             <div>
-                <img u="image" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/imagesDana.jpg" />
-                <img u="thumb" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/imagesDana.jpg" />
+                <img u="image" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/images/Dana.jpg" />
+                <img u="thumb" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/images/Dana.jpg" />
                 <div u="thumb" style="z-index: 1; font-family:calibri; font-size:15px;">
 					<br />
 					<table>
@@ -428,8 +425,8 @@
 				</div>
             </div>
             <div>
-                <img u="image" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/imagesRiza.jpg" />
-                <img u="thumb" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/imagesRiza-thumb.jpg" />
+                <img u="image" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/images/Riza.jpg" />
+                <img u="thumb" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/images/Riza-thumb.jpg" />
                 <div u="thumb" style="z-index: 1; font-family:calibri; font-size:15px;">
 					<br />
 					<table>
@@ -486,8 +483,8 @@
 				</div>
             </div>
             <div>
-                <img u="image" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/imagesMicka.jpg" />
-                <img u="thumb" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/imagesMicka-thumb.jpg" />
+                <img u="image" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/images/Micka.jpg" />
+                <img u="thumb" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/images/Micka-thumb.jpg" />
                 <div u="thumb" style="z-index: 1; font-family:calibri; font-size:15px;">
 					<br />
 					<table>
@@ -541,8 +538,8 @@
 				</div>
             </div>
             <div>
-                <img u="image" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/imagesLara.jpg" />
-                <img u="thumb" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/imagesLara-thumb.jpg" />
+                <img u="image" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/images/Lara.jpg" />
+                <img u="thumb" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/images/Lara-thumb.jpg" />
                 <div u="thumb" style="z-index: 1; font-family:calibri; font-size:15px;">
 					<br />
 					<table>
@@ -590,8 +587,8 @@
 				</div>
             </div>
             <div>
-                <img u="image" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/imagesBryan.jpg" style="z-index:0"/>
-                <img u="thumb" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/imagesBryan-thumb.jpg" />
+                <img u="image" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/images/Bryan.jpg" style="z-index:0"/>
+                <img u="thumb" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/images/Bryan-thumb.jpg" />
                 <div u="thumb" style="z-index: 1; font-family:calibri; font-size:15px;">
 					<br />
 					<table>
@@ -645,8 +642,8 @@
 				</div>
             </div>
             <div>
-                <img u="image" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/imagesTin.jpg" />
-                <img u="thumb" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/imagesTin-thumb.jpg" />
+                <img u="image" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/images/Tin.jpg" />
+                <img u="thumb" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/images/Tin-thumb.jpg" />
                 <div u="thumb" style="z-index: 1; font-family:calibri; font-size:15px;">
 					<br />
 					<table>
@@ -700,8 +697,8 @@
 				</div>
             </div>
             <div>
-                <img u="image" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/imagesChristian.jpg" />
-                <img u="thumb" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/imagesChristian-thumb.jpg" />
+                <img u="image" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/images/Christian.jpg" />
+                <img u="thumb" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/images/Christian-thumb.jpg" />
                 <div u="thumb" style="z-index: 1; font-family:calibri; font-size:15px;">
 					<br />
 					<table>
@@ -789,7 +786,7 @@
         <!-- ThumbnailNavigator Skin Begin -->
         <div u="thumbnavigator2" class="sliderb-T" style="position: absolute; top: 0px; left: 0px; height:480px; width:550px;">
             <div style="filter: alpha(opacity=40); opacity:0.5; position: absolute; display: block;
-                background-color: #800000; top: 0px; left: 0px; width: 100%; height: 100%;">
+                background-color: #565656; top: 0px; left: 0px; width: 100%; height: 100%;">
             </div>
             <!-- Thumbnail Item Skin Begin -->
             <div u="slides">
@@ -863,5 +860,3 @@
     <!-- Jssor Slider End -->
 </body>
 </html>
-]]></Content>
-</Module>
