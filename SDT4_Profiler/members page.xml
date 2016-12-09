@@ -169,9 +169,9 @@
         <!-- Slides Container -->
         <div u="slides" style="cursor: move; position: absolute; left: 240px; top: 0px; width: 720px; height: 480px; overflow: hidden;">
             <div>
-                <img u="image" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/images/Kenx.jpg" />
+                <img u="image" style="z-index: -1" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/images/Kenx.jpg" />
                 <img u="thumb" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/images/Kenx-thumb.jpg" />
-                <div u="thumb" style="z-index: 1; font-family:calibri; font-size:15px;">
+                <div u="thumb" style="font-family:calibri; font-size:15px;">
 					<br />
 					<table>
 						<tr>
@@ -224,9 +224,9 @@
 				</div>
             </div>
             <div>
-                <img u="image" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/images/Gabby.jpg" />
+                <img u="image" style="z-index: -1" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/images/Gabby.jpg" />
                 <img u="thumb" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/images/Gabby-thumb.jpg" />
-                <div u="thumb" style="z-index: 1; font-family:calibri; font-size:15px;">
+                <div u="thumb" style="font-family:calibri; font-size:15px;">
 					<br />
 					<table>
 						<tr>
@@ -273,9 +273,9 @@
 				</div>
             </div>
             <div>
-                <img u="image" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/images/Marix.jpg" />
+                <img u="image" style="z-index: -1" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/images/Marix.jpg" />
                 <img u="thumb" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/images/Marix-thumb.jpg" />
-                <div u="thumb" style="z-index: 1; font-family:calibri; font-size:15px;">
+                <div u="thumb" style="font-family:calibri; font-size:15px;">
 					<br />
 					<table>
 						<tr>
@@ -320,9 +320,9 @@
 				</div>
             </div>
             <div>
-                <img u="image" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/images/Lara.jpg" />
+                <img u="image" style="z-index: -1" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/images/Lara.jpg" />
                 <img u="thumb" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/images/Lara-thumb.jpg" />
-                <div u="thumb" style="z-index: 1; font-family:calibri; font-size:15px;">
+                <div u="thumb" style="font-family:calibri; font-size:15px;">
 					<br />
 					<table>
 						<tr>
@@ -369,9 +369,9 @@
 				</div>
             </div>
             <div>
-                <img u="image" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/images/Tin.jpg" />
+                <img u="image" style="z-index: -1" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/images/Tin.jpg" />
                 <img u="thumb" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/images/Tin-thumb.jpg" />
-                <div u="thumb" style="z-index: 1; font-family:calibri; font-size:15px;">
+                <div u="thumb" style="font-family:calibri; font-size:15px;">
 					<br />
 					<table>
 						<tr>
@@ -424,9 +424,9 @@
 				</div>
             </div>
             <div>
-                <img u="image" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/images/Christian.jpg" />
+                <img u="image" style="z-index: -1" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/images/Christian.jpg" />
                 <img u="thumb" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/images/Christian-thumb.jpg" />
-                <div u="thumb" style="z-index: 1; font-family:calibri; font-size:15px;">
+                <div u="thumb" style="font-family:calibri; font-size:15px;">
 					<br />
 					<table>
 						<tr>
@@ -473,9 +473,9 @@
 				</div>
             </div>
             <div>
-                <img u="image" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/images/Eri.jpg" />
+                <img u="image" style="z-index: -1" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/images/Eri.jpg" />
                 <img u="thumb" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/images/Eri-thumb.jpg" />
-                <div u="thumb" style="z-index: 1; font-family:calibri; font-size:15px;">
+                <div u="thumb" style="font-family:calibri; font-size:15px;">
 					<br />
 					<table>
 						<tr>
@@ -540,9 +540,9 @@
 				</div>
             </div>
             <div>
-                <img u="image" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/images/Ynna.jpg" />
+                <img u="image" style="z-index: -1" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/images/Ynna.jpg" />
                 <img u="thumb" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/images/Ynna-thumb.jpg" />
-                <div u="thumb" style="z-index: 1; font-family:calibri; font-size:15px;">
+                <div u="thumb" style="font-family:calibri; font-size:15px;">
 					<br />
 					<table>
 						<tr>
