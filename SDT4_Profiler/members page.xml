@@ -3,7 +3,7 @@
 <ModulePrefs title="hello world example" />
 <Content type="html">
 <![CDATA[
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8">
@@ -50,11 +50,11 @@
         }
     </style>
     <!-- it works the same with all jquery version from 1.x to 2.x -->
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
     <!-- use jssor.slider.mini.js (40KB) instead for release -->
     <!-- jssor.slider.mini.js = (jssor.js + jssor.slider.js) -->
-    <script type="text/javascript" src="https://raw.githack.com/gards25/sdt4Slider/master/SDT4_Profiler/js/jssor.js"></script>
-    <script type="text/javascript" src="https://raw.githack.com/gards25/sdt4Slider/master/SDT4_Profiler/js/jssor.slider.js"></script>
+    <script type="text/javascript" src="js/jssor.js"></script>
+    <script type="text/javascript" src="js/jssor.slider.js"></script>
     <script>
         jQuery(document).ready(function ($) {
 			
@@ -71,12 +71,10 @@
             {$Duration: 1200, $Zoom: 1, $Rotate: 1, $During: { $Zoom: [0.2, 0.8], $Rotate: [0.2, 0.8] }, $Easing: { $Zoom: $JssorEasing$.$EaseSwing, $Opacity: $JssorEasing$.$EaseLinear, $Rotate: $JssorEasing$.$EaseSwing }, $Opacity: 2, $Round: { $Rotate: 0.5} },
             //Rotate Zoom+ out
             {$Duration: 1000, $Zoom: 11, $Rotate: 1, $SlideOut: true, $Easing: { $Zoom: $JssorEasing$.$EaseInExpo, $Opacity: $JssorEasing$.$EaseLinear, $Rotate: $JssorEasing$.$EaseInExpo }, $Opacity: 2, $Round: { $Rotate: 0.8} },
-
             //Zoom HDouble- in
             {$Duration: 1200, x: 0.5, $Cols: 2, $Zoom: 1, $Assembly: 2049, $ChessMode: { $Column: 15 }, $Easing: { $Left: $JssorEasing$.$EaseInCubic, $Zoom: $JssorEasing$.$EaseInCubic, $Opacity: $JssorEasing$.$EaseLinear }, $Opacity: 2 },
             //Zoom HDouble+ out
             {$Duration: 1200, x: 4, $Cols: 2, $Zoom: 11, $SlideOut: true, $Assembly: 2049, $ChessMode: { $Column: 15 }, $Easing: { $Left: $JssorEasing$.$EaseInExpo, $Zoom: $JssorEasing$.$EaseInExpo, $Opacity: $JssorEasing$.$EaseLinear }, $Opacity: 2 },
-
             //Rotate Zoom- in L
             {$Duration: 1200, x: 0.6, $Zoom: 1, $Rotate: 1, $During: { $Left: [0.2, 0.8], $Zoom: [0.2, 0.8], $Rotate: [0.2, 0.8] }, $Easing: { $Left: $JssorEasing$.$EaseSwing, $Zoom: $JssorEasing$.$EaseSwing, $Opacity: $JssorEasing$.$EaseLinear, $Rotate: $JssorEasing$.$EaseSwing }, $Opacity: 2, $Round: { $Rotate: 0.5} },
             //Rotate Zoom+ out R
@@ -85,7 +83,6 @@
             {$Duration: 1200, x: -0.6, $Zoom: 1, $Rotate: 1, $During: { $Left: [0.2, 0.8], $Zoom: [0.2, 0.8], $Rotate: [0.2, 0.8] }, $Easing: { $Left: $JssorEasing$.$EaseSwing, $Zoom: $JssorEasing$.$EaseSwing, $Opacity: $JssorEasing$.$EaseLinear, $Rotate: $JssorEasing$.$EaseSwing }, $Opacity: 2, $Round: { $Rotate: 0.5} },
             //Rotate Zoom+ out L
             {$Duration: 1000, x: 4, $Zoom: 11, $Rotate: 1, $SlideOut: true, $Easing: { $Left: $JssorEasing$.$EaseInExpo, $Zoom: $JssorEasing$.$EaseInExpo, $Opacity: $JssorEasing$.$EaseLinear, $Rotate: $JssorEasing$.$EaseInExpo }, $Opacity: 2, $Round: { $Rotate: 0.8} },
-
             //Rotate HDouble- in
             {$Duration: 1200, x: 0.5, y: 0.3, $Cols: 2, $Zoom: 1, $Rotate: 1, $Assembly: 2049, $ChessMode: { $Column: 15 }, $Easing: { $Left: $JssorEasing$.$EaseInCubic, $Top: $JssorEasing$.$EaseInCubic, $Zoom: $JssorEasing$.$EaseInCubic, $Opacity: $JssorEasing$.$EaseOutQuad, $Rotate: $JssorEasing$.$EaseInCubic }, $Opacity: 2, $Round: { $Rotate: 0.7} },
             //Rotate HDouble- out
@@ -95,34 +92,28 @@
             //Rotate HFork in
             {$Duration: 1200, x: 1, y: 2, $Cols: 2, $Zoom: 11, $Rotate: 1, $Assembly: 2049, $ChessMode: { $Column: 19 }, $Easing: { $Left: $JssorEasing$.$EaseInCubic, $Top: $JssorEasing$.$EaseInCubic, $Zoom: $JssorEasing$.$EaseInCubic, $Opacity: $JssorEasing$.$EaseOutQuad, $Rotate: $JssorEasing$.$EaseInCubic }, $Opacity: 2, $Round: { $Rotate: 0.8} }
             ];
-
             var options = {
                 $AutoPlay: true,                                    //[Optional] Whether to auto play, to enable slideshow, this option must be set to true, default value is false
-                $AutoPlayInterval: 4000,                            //[Optional] Interval (in milliseconds) to go for next slide since the previous stopped if the slider is auto playing, default value is 3000
+                $AutoPlayInterval: 5000,                            //[Optional] Interval (in milliseconds) to go for next slide since the previous stopped if the slider is auto playing, default value is 3000
                 $PauseOnHover: 1,                                //[Optional] Whether to pause when mouse over if a slider is auto playing, 0 no pause, 1 pause for desktop, 2 pause for touch device, 3 pause for desktop and touch device, 4 freeze for desktop, 8 freeze for touch device, 12 freeze for desktop and touch device, default value is 1
-
                 $DragOrientation: 3,                                //[Optional] Orientation to drag slide, 0 no drag, 1 horizental, 2 vertical, 3 either, default value is 1 (Note that the $DragOrientation should be the same as $PlayOrientation when $DisplayPieces is greater than 1, or parking position is not 0)
                 $ArrowKeyNavigation: true,   			            //[Optional] Allows keyboard (arrow key) navigation or not, default value is false
-                $SlideDuration: 300,                                //Specifies default duration (swipe) for slide in milliseconds
-
+                $SlideDuration: 600,                                //Specifies default duration (swipe) for slide in milliseconds
                 $SlideshowOptions: {                                //[Optional] Options to specify and enable slideshow or not
                     $Class: $JssorSlideshowRunner$,                 //[Required] Class to create instance of slideshow
                     $Transitions: _SlideshowTransitions,            //[Required] An array of slideshow transitions to play slideshow
                     $TransitionsOrder: 1,                           //[Optional] The way to choose transition to play slide, 1 Sequence, 0 Random
                     $ShowLink: true                                    //[Optional] Whether to bring slide link on top of the slider when slideshow is running, default value is false
                 },
-
                 $ArrowNavigatorOptions: {                       //[Optional] Options to specify and enable arrow navigator or not
                     $Class: $JssorArrowNavigator$,              //[Requried] Class to create arrow navigator instance
                     $ChanceToShow: 1,                               //[Required] 0 Never, 1 Mouse Over, 2 Always
                     $AutoCenter: 2,                                 //[Optional] Auto center navigator in parent container, 0 None, 1 Horizontal, 2 Vertical, 3 Both, default value is 0
                     $Steps: 1                                       //[Optional] Steps to go for each navigation request, default value is 1
                 },
-
                 $ThumbnailNavigatorOptions: {                       //[Optional] Options to specify and enable thumbnail navigator or not
                     $Class: $JssorThumbnailNavigator$,              //[Required] Class to create thumbnail navigator instance
                     $ChanceToShow: 2,                               //[Required] 0 Never, 1 Mouse Over, 2 Always
-
                     $ActionMode: 1,                                 //[Optional] 0 None, 1 act by click, 2 act by mouse hover, 3 both, default value is 1
                     $Lanes: 2,                                      //[Optional] Specify lanes to arrange thumbnails, default value is 1
                     $SpacingX: 14,                                   //[Optional] Horizontal space between each thumbnail in pixel, default value is 0
@@ -132,7 +123,6 @@
                     $Orientation: 2                                //[Optional] Orientation to arrange thumbnails, 1 horizental, 2 vertical, default value is 1
                 }
             };
-
             var jssor_slider1 = new $JssorSlider$("slider1_container", options);
             //responsive code begin
             //you can remove responsive code if you don't want the slider scales while window resizes
@@ -144,7 +134,6 @@
                     window.setTimeout(ScaleSlider, 30);
             }
             ScaleSlider();
-
             $(window).bind("load", ScaleSlider);
             $(window).bind("resize", ScaleSlider);
             $(window).bind("orientationchange", ScaleSlider);
@@ -161,7 +150,7 @@
             <div style="filter: alpha(opacity=70); opacity:0.7; position: absolute; display: block;
                 background-color: #000000; top: 0px; left: 0px;width: 100%;height:100%;">
             </div>
-            <div style="position: absolute; display: block; background: url(https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/images/loading.gif) no-repeat center center;
+            <div style="position: absolute; display: block; background: url(images/loading.gif) no-repeat center center;
                 top: 0px; left: 0px;width: 100%;height:100%;">
             </div>
         </div>
@@ -169,8 +158,8 @@
         <!-- Slides Container -->
         <div u="slides" style="cursor: move; position: absolute; left: 240px; top: 0px; width: 720px; height: 480px; overflow: hidden;">
             <div>
-                <img u="image" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/images/Neri.jpg" />
-                <img u="thumb" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/images/Neri-thumb.jpg" />
+                <img u="image" src="images/Neri.jpg" />
+                <img u="thumb" src="images/Neri-thumb.jpg" />
                 <div u="thumb" style="z-index: 1; font-family:calibri; font-size:15px;">
 					<br />
 					<table>
@@ -179,7 +168,7 @@
 						</tr>
 						<tr><td></td></tr>
 						<tr>
-							<td>Nickname</td><td width="1px;">:</td><td>Nerissa</td>
+							<td>Nickname</td><td width="1px;">:</td><td>Neri</td>
 						</tr>
 						<tr><td></td></tr>
 						<tr>
@@ -227,8 +216,8 @@
 				</div>
             </div>
             <div>
-                <img u="image" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/images/Gabby.jpg" />
-                <img u="thumb" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/images/Gabby-thumb.jpg" />
+                <img u="image" src="images/Gabby.jpg" />
+                <img u="thumb" src="images/Gabby-thumb.jpg" />
                 <div u="thumb" style="z-index: 1; font-family:calibri; font-size:15px;">
 					<br />
 					<table>
@@ -276,8 +265,66 @@
 				</div>
             </div>
             <div>
-                <img u="image" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/images/Gards.jpg" />
-                <img u="thumb" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/images/Gards-thumb.jpg" />
+                <img u="image" src="images/John.jpg" />
+                <img u="thumb" src="images/John-thumb.jpg" />
+                <div u="thumb" style="z-index: 1; font-family:calibri; font-size:15px;">
+					<br />
+					<table>
+						<tr>
+							<td colspan="3"><h2>John Timothy Ama</h2></td>
+						</tr>
+						<tr><td></td></tr>
+						<tr>
+							<td>Nickname</td><td width="1px;">:</td><td>John</td>
+						</tr>
+						<tr><td></td></tr>
+						<tr>
+							<td>Position</td><td width="1px;">:</td><td>Member</td>
+						</tr>
+						<tr><td></td></tr>
+						<tr>
+							<td>Nihongo</td><td width="1px;">:</td><td>N3</td>
+						</tr>
+						<tr><td></td></tr>
+						<tr>
+							<td>College</td><td width="1px;">:</td><td>San Beda College Alabang</td>
+						</tr>
+						<tr><td></td></tr>
+						<tr>
+							<td>Course</td><td width="1px;">:</td><td>BS Information Technology</td>
+						</tr>
+						<tr><td></td></tr>
+						<tr>
+							<td>Hobbies</td><td width="1px;">:</td><td>Basketball</td>
+						</tr>
+						<tr><td></td></tr>
+						<tr>
+							<td>Personality</td><td width="1px;">:</td><td>A person who values his </td>
+						</tr>
+						<tr>
+							<td></td><td width="1px;"></td><td> companions among others. Except </td>
+						</tr>
+						<tr>
+							<td></td><td width="1px;"></td><td> when it comes to Babe*. A very  </td>
+						</tr>
+						<tr>
+							<td></td><td width="1px;"></td><td> outgoing person who values  </td>
+						</tr>
+						<tr>
+							<td></td><td width="1px;"></td><td> experience rather than its costs.  </td>
+						</tr>
+						<tr>
+							<td></td><td width="1px;"></td><td>Though the outgoing part </td>
+						</tr>
+						<tr>
+							<td></td><td width="1px;"></td><td>sometimes go far beyond.</td>
+						</tr>
+					</table>
+				</div>
+            </div>
+            <div>
+                <img u="image" src="images/Gards.jpg" />
+                <img u="thumb" src="images/Gards-thumb.jpg" />
                 <div u="thumb" style="z-index: 1; font-family:calibri; font-size:15px;">
 					<br />
 					<table>
@@ -331,8 +378,8 @@
 				</div>
             </div>
             <div>
-                <img u="image" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/images/Dana.jpg" />
-                <img u="thumb" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/images/Dana-thumb.jpg" />
+                <img u="image" src="images/Dana.jpg" />
+                <img u="thumb" src="images/Dana.jpg" />
                 <div u="thumb" style="z-index: 1; font-family:calibri; font-size:15px;">
 					<br />
 					<table>
@@ -383,8 +430,8 @@
 				</div>
             </div>
             <div>
-                <img u="image" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/images/Riza.jpg" />
-                <img u="thumb" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/images/Riza-thumb.jpg" />
+                <img u="image" src="images/Riza.jpg" />
+                <img u="thumb" src="images/Riza-thumb.jpg" />
                 <div u="thumb" style="z-index: 1; font-family:calibri; font-size:15px;">
 					<br />
 					<table>
@@ -441,8 +488,8 @@
 				</div>
             </div>
             <div>
-                <img u="image" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/images/Micka.jpg" />
-                <img u="thumb" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/images/Micka-thumb.jpg" />
+                <img u="image" src="images/Micka.jpg" />
+                <img u="thumb" src="images/Micka-thumb.jpg" />
                 <div u="thumb" style="z-index: 1; font-family:calibri; font-size:15px;">
 					<br />
 					<table>
@@ -496,8 +543,8 @@
 				</div>
             </div>
             <div>
-                <img u="image" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/images/Lara.jpg" />
-                <img u="thumb" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/images/Lara-thumb.jpg" />
+                <img u="image" src="images/Lara.jpg" />
+                <img u="thumb" src="images/Lara-thumb.jpg" />
                 <div u="thumb" style="z-index: 1; font-family:calibri; font-size:15px;">
 					<br />
 					<table>
@@ -518,7 +565,7 @@
 						</tr>
 						<tr><td></td></tr>
 						<tr>
-							<td>College</td><td width="1px;">:</td><td>De La Salle University - Dasmari?as</td>
+							<td>College</td><td width="1px;">:</td><td>De La Salle University - Dasmariñas</td>
 						</tr>
 						<tr><td></td></tr>
 						<tr>
@@ -545,8 +592,8 @@
 				</div>
             </div>
             <div>
-                <img u="image" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/images/Bryan.jpg" style="z-index:0"/>
-                <img u="thumb" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/images/Bryan-thumb.jpg" />
+                <img u="image" src="images/Bryan.jpg" style="z-index:0"/>
+                <img u="thumb" src="images/Bryan-thumb.jpg" />
                 <div u="thumb" style="z-index: 1; font-family:calibri; font-size:15px;">
 					<br />
 					<table>
@@ -600,8 +647,8 @@
 				</div>
             </div>
             <div>
-                <img u="image" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/images/Tin.jpg" />
-                <img u="thumb" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/images/Tin-thumb.jpg" />
+                <img u="image" src="images/Tin.jpg" />
+                <img u="thumb" src="images/Tin-thumb.jpg" />
                 <div u="thumb" style="z-index: 1; font-family:calibri; font-size:15px;">
 					<br />
 					<table>
@@ -655,8 +702,8 @@
 				</div>
             </div>
             <div>
-                <img u="image" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/images/Christian.jpg" />
-                <img u="thumb" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/images/Christian-thumb.jpg" />
+                <img u="image" src="images/Christian.jpg" />
+                <img u="thumb" src="images/Christian-thumb.jpg" />
                 <div u="thumb" style="z-index: 1; font-family:calibri; font-size:15px;">
 					<br />
 					<table>
@@ -724,6 +771,7 @@
             	position: absolute;
             	cursor: pointer;
             	display: block;
+                background: url(../img/a17.png) no-repeat;
                 overflow:hidden;
             }
             .jssora05l { background-position: -10px -40px; }
@@ -744,7 +792,7 @@
         <!-- ThumbnailNavigator Skin Begin -->
         <div u="thumbnavigator2" class="sliderb-T" style="position: absolute; top: 0px; left: 0px; height:480px; width:550px;">
             <div style="filter: alpha(opacity=40); opacity:0.5; position: absolute; display: block;
-                background-color: #565656; top: 0px; left: 0px; width: 100%; height: 100%;">
+                background-color: #800000; top: 0px; left: 0px; width: 100%; height: 100%;">
             </div>
             <!-- Thumbnail Item Skin Begin -->
             <div u="slides">
@@ -788,6 +836,7 @@
                 }
                 .jssort02 .p:hover .c, .jssort02 .pav:hover .c, .jssort02 .pav .c 
                 {
+                	background: url(../img/t01.png) center center;
                 	border-width: 0px;
                     top: 2px;
                     left: 2px;
