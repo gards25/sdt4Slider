@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module>
+<ModulePrefs title="hello world example" />
+<Content type="html">
+<![CDATA[
+<!DOCTYPE html>
+<html>
+<head>
+<title>Banner</title>
+<style>
+  * {
+    padding: 0;
+    margin: 0;
+  }
+  .fit { /* set relative picture size */
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .center {
+    display: block;
+    margin: auto;
+  }
+</style>
+
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+
+<script type="text/javascript" language="JavaScript">
+<!--<script language="JavaScript1.2">-->
+
+var howOften = 5; //number often in seconds to rotate
+var current = 0; //start the counter at 0
+var ns6 = document.getElementById&&!document.all; //detect netscape 6
+
+// place your images, text, etc in the array elements here
+var items = new Array();
+    items[0]="<a href='link.htm'><img class='center fit' src='images/desk-laptop-notebook-pen.jpg' /></a>"; //a linked image
+    items[1]="<a href='link.htm'><img class='center fit' src='images/pexels-photo-306198.jpeg'/></a>"; //a linked image
+    items[2]="<a href='link.htm'><img class='center fit' src='images/pexels-photo-59628.jpeg' /></a>"; //a linked image
+function rotater() {
+    document.getElementById("placeholder").innerHTML = items[current];
+    current = (current==items.length-1) ? 0 : current + 1;
+    setTimeout("rotater()",howOften*1000);
+}
+
+function rotater() {
+    if(document.layers) {
+        document.placeholderlayer.document.write(items[current]);
+        document.placeholderlayer.document.close();
+    }
+    if(ns6)document.getElementById("placeholderdiv").innerHTML=items[current]
+        if(document.all)
+            placeholderdiv.innerHTML=items[current];
+
+    current = (current==items.length-1) ? 0 : current + 1; //increment or reset
+    setTimeout("rotater()",howOften*1000);
+}
+window.onload=rotater;
+
+function set_body_height() { // set body height = window height
+    $('body').height($(window).height());
+  }
+  $(document).ready(function() {
+    $(window).bind('resize', set_body_height);
+    set_body_height();
+  });
+
+</script>
+
+</head>
+<body>
+
+<layer id="placeholderlayer"></layer><div id="placeholderdiv"></div>
+</body>
+</html>
+]]></Content>
+</Module>
