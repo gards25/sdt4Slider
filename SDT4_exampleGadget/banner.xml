@@ -33,9 +33,9 @@ var ns6 = document.getElementById&&!document.all; //detect netscape 6
 
 // place your images, text, etc in the array elements here
 var items = new Array();
-    items[0]="<a href='link.htm'><img class='center fit' src='images/desk-laptop-notebook-pen.jpg' /></a>"; //a linked image
-    items[1]="<a href='link.htm'><img class='center fit' src='images/pexels-photo-306198.jpeg'/></a>"; //a linked image
-    items[2]="<a href='link.htm'><img class='center fit' src='images/pexels-photo-59628.jpeg' /></a>"; //a linked image
+    items[0]="<a href='link.htm'><img class='center fit' src='https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_exampleGadget/images/desk-laptop-notebook-pen.jpg' /></a>"; //a linked image
+    items[1]="<a href='link.htm'><img class='center fit' src='https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_exampleGadget/images/pexels-photo-306198.jpeg'/></a>"; //a linked image
+    items[2]="<a href='link.htm'><img class='center fit' src='https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_exampleGadget/images/pexels-photo-59628.jpeg' /></a>"; //a linked image
 function rotater() {
     document.getElementById("placeholder").innerHTML = items[current];
     current = (current==items.length-1) ? 0 : current + 1;
