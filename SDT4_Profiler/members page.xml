@@ -320,8 +320,8 @@
 				</div>
             </div>
             <div>
-                <img u="image" style="z-index: -1; max-width:100%; height:auto;" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/images/Kevin.jpg" />
-                <img u="thumb" style="max-width:100%; height:auto;" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/images/Kevin-thumb.jpg" />
+                <img u="image" style="z-index: -1; max-height:100%; width:auto;" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/images/Kevin.jpg" />
+                <img u="thumb" style="max-height:100%; width:auto;" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/images/Kevin-thumb.jpg" />
                 <div u="thumb" style="font-family:calibri; font-size:15px;">
 					<br />
 					<table>
