@@ -320,13 +320,13 @@
 				</div>
             </div>
             <div>
-                <img u="image" style="z-index: -1; height:auto; width:auto;" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/images/Kevin.jpg" />
-                <img u="thumb" style="height:auto; width:auto;" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/images/Kevin-thumb.jpg" />
+                <img u="image" style="z-index: -1; height:100%; width:50%;" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/images/Kevin.jpg" />
+                <img u="thumb" style="height:100%; width:50%;" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/images/Kevin-thumb.jpg" />
                 <div u="thumb" style="font-family:calibri; font-size:15px;">
 					<br />
 					<table>
 						<tr>
-							<td colspan="3"><h2>Kevin Gabriel</h2></td>
+							<td colspan="3"><h2>Kevin Lim Gabriel</h2></td>
 						</tr>
 						<tr><td></td></tr>
 						<tr>
