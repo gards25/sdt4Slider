@@ -401,7 +401,7 @@
 						</tr>
 						<tr><td></td></tr>
 						<tr>
-							<td>Hobbies</td><td width="1px;">:</td><td>Watching movies, reading, playing guitar</td>
+							<td>Hobbies</td><td width="1px;">:</td><td>Watching movies, reading, playing <br/> guitar</td>
 						</tr>
 						<tr><td></td></tr>
 						<tr>
@@ -411,10 +411,13 @@
 							<td></td><td width="1px;"></td><td>he doesn't afraid to show it.</td>
 						</tr>
 						<tr>
-							<td></td><td width="1px;"></td><td>He care for others and treat others with respect</td>
+							<td></td><td width="1px;"></td><td>He care for others and treat others</td>
 						</tr>
 						<tr>
-							<td></td><td width="1px;"></td><td>unless they don't treat him nice.</td>
+							<td></td><td width="1px;"></td><td> with respect unless they</td>
+						</tr>
+						<tr>
+							<td></td><td width="1px;"></td><td>don't treat him nice.</td>
 						</tr>
 						
 					</table>
