@@ -422,62 +422,7 @@
 						
 					</table>
 				</div>
-            </div>
-            <div>
-                <img u="image" style="z-index: -1" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/images/Tin.jpg" />
-                <img u="thumb" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/images/Tin-thumb.jpg" />
-                <div u="thumb" style="font-family:calibri; font-size:15px;">
-					<br />
-					<table>
-						<tr>
-							<td colspan="3"><h2>Maria Kristine Oliveria</h2></td>
-						</tr>
-						<tr><td></td></tr>
-						<tr>
-							<td>Nickname</td><td width="1px;">:</td><td>Tin</td>
-						</tr>
-						<tr><td></td></tr>
-						<tr>
-							<td>Position</td><td width="1px;">:</td><td>Member</td>
-						</tr>
-						<tr><td></td></tr>
-						<tr>
-							<td>Nihongo</td><td width="1px;">:</td><td>N3</td>
-						</tr>
-						<tr><td></td></tr>
-						<tr>
-							<td>College</td><td width="1px;">:</td><td>Colegio de San Juan de Letran</td>
-						</tr>
-						<tr>
-							<td></td><td width="1px;"></td><td>Bataan</td>
-						</tr>
-						<tr><td></td></tr>
-						<tr>
-							<td>Course</td><td width="1px;">:</td><td>BS Information Technology</td>
-						</tr>
-						<tr><td></td></tr>
-						<tr>
-							<td>Hobbies</td><td width="1px;">:</td><td>Watching movies</td>
-						</tr>
-						<tr><td></td></tr>
-						<tr>
-							<td>Personality</td><td width="1px;">:</td><td>A very shy and quiet person, </td>
-						</tr>
-						<tr>
-							<td></td><td width="1px;"></td><td>she loves to code and think logically</td>
-						</tr>
-						<tr>
-							<td></td><td width="1px;"></td><td> on any program that she's working </td>
-						</tr>
-						<tr>
-							<td></td><td width="1px;"></td><td> on. She may be small yet incredible</td>
-						</tr>
-						<tr>
-							<td></td><td width="1px;"></td><td>  member of SDT4. </td>
-						</tr>
-					</table>
-				</div>
-            </div>
+            </div>            
             
             <div>
                 <img u="image" style="z-index: -1" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_Profiler/images/Eri.jpg" />
