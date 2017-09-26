@@ -1,0 +1,174 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="vocabulary-n2.js" charset="UTF-8"></script>
+<script>
+
+$(document).ready(function(){
+    $("#mydiv").hide();
+    $("#mydiv2").show();
+
+    $("#mydiv").hide();
+     $("#mydiv2").show();
+    $("#mydiv").click(function(){
+        $("#mydiv").hide();
+        $("#mydiv2").show();
+    });
+    $("#mydiv2").click(function(){
+        $("#mydiv2").hide();
+        $("#mydiv").show();
+    });
+});
+var kanji = Vocabulary_N2;
+var startpage = 0;
+var endpage = kanji.length - 1;
+var currentpage = getRandomInt(startpage, endpage);
+
+function nextPage(){
+  if(currentpage<endpage){
+    currentpage ++;
+  }else{
+   currentpage = startpage;
+  }
+  myFunction();
+}
+
+function prevPage(){
+  if(currentpage>startpage){
+    currentpage--;
+  }else{
+    currentpage = endpage;
+  }
+  myFunction();
+}
+
+function selectLevel(elem){
+ kanji = [];
+ switch (elem.value)
+ {
+   case "N1": 
+     kanji = Vocabulary_N2;
+     break;
+   case "N2":
+     kanji = Vocabulary_N2;
+    break;
+   case "N3": 
+     kanji = Vocabulary_N2;
+    break;
+   case "N4": 
+     kanji = Vocabulary_N2;
+    break;
+   case "N5": 
+     kanji = Vocabulary_N2;
+    break;
+  }
+  startpage = 0;
+  endpage = kanji.length - 1;
+  currentpage = getRandomInt(startpage, endpage);
+  myFunction();
+}
+
+String.prototype.replaceAll = function(search, replacement) {
+    var target = this;
+    return target.split(search).join(replacement);
+};
+
+
+function myFunction(){
+  
+  var element = document.getElementById("mydiv");
+  var element2 = document.getElementById("mydiv2");
+  var element3 = document.getElementById("pagenumber");
+  element.innerHTML = "";
+  element2.innerHTML = "";
+  element3.innerHTML = "";
+  element3.innerHTML = (currentpage +1)+ "/" + (endpage+1) ;
+  if(kanji[currentpage].Kanji != ""){
+    element.innerHTML = "<font size='12'>"+ kanji[currentpage].Kanji+"</font>"; 
+    element2.innerHTML = "<font size='12'>"+ kanji[currentpage].Kanji+"</font>"; 
+  }else{
+    element.innerHTML = "<font size='12'>"+ kanji[currentpage].Hiragana+"</font>"; 
+    element2.innerHTML = "<font size='12'>"+ kanji[currentpage].Hiragana+"</font>";
+  }  
+  element.innerHTML += "<br/>";
+  element.innerHTML += "<font size='3'><span class='rcorners_blue'>" + kanji[currentpage].Hiragana  + "</span></font>";
+  element.innerHTML += "<br/><br/>"; 
+  element.innerHTML += "<font size='5'>" + kanji[currentpage].English.replaceAll( "," , ", ") + "</font>"; 
+  $("#mydiv").hide();
+  $("#mydiv2").show();
+}
+function getRandomInt(min, max) {
+  min = Math.ceil(min);
+  max = Math.floor(max);
+  return Math.floor(Math.random() * (max - min)) + min; //The maximum is exclusive and the minimum is inclusive
+}
+</script>
+<style type="text/css">
+    
+    .rcorners_green {
+	    color: white;
+	    border-radius: 4px;
+	    background: #1BAD90;
+	    padding: 3px;
+            margin: 1px;
+	    display:inline-block;;  
+	}
+    .rcorners_blue {
+	    color: white;
+	    border-radius: 4px;
+	    background: #1B7BBA;
+	    padding: 3px;
+            margin: 1px;
+            display:inline-block;    
+	}
+   .pagination a {
+	    color: black;
+	    padding: 8px 16px;
+	    text-decoration: none;
+	    transition: background-color .3s;
+  bottom: 0;
+	}
+</style>
+<title>Kanji Study</title>
+</head>
+
+<body style="background-color: #F2F2F2" onload="myFunction()">
+
+<table id="mytbl" style="border-collapse: collapse;height:94vh;background-color: #F2F2F2;" align="center" border="0" width="100%" bgcolor="#E8E8E8" cellspacing="0" cellpadding="0">
+<tr><td colspan="2">
+JLPT Level&nbsp;
+<select onchange="selectLevel(this)">
+  <option value="N5">N5</option>
+  <option value="N4">N4</option>
+  <option value="N3">N3</option>
+  <option value="N2">N2</option>
+  <option value="N1">N1</option>
+</select>
+</td>
+<td colspan="2" align="right">
+<div id="pagenumber"/></td>
+</td>
+</tr>
+<tr>
+<td width="1px">
+<div class="pagination">
+<a href="javascript: prevPage()">&laquo;</a>
+</div>
+</td>
+<td colspan="2" align="center" width="100%" height="100%">
+<div id="mydiv">
+</div>
+<div id="mydiv2">
+</div>
+</td>
+<td width="1px">
+<div class="pagination">
+<a href="javascript: nextPage()">&raquo;</a>
+</div>
+</td>
+</tr>
+</table>
+</body>
+</html>
