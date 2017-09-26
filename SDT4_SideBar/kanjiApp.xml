@@ -7,7 +7,7 @@
 <head>
 <meta charset="UTF-8" />
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<script type="text/javascript" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_SideBar/vocabulary-n2.js" charset="UTF-8"></script>
+<script type="text/javascript" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_SideBar/vocabulary-n2.js"></script>
 <script>
 $(document).ready(function(){
     $("#mydiv").hide();
@@ -136,11 +136,7 @@ function getRandomInt(min, max) {
 <tr><td colspan="2">
 JLPT Level&nbsp;
 <select onchange="selectLevel(this)">
-  <option value="N5">N5</option>
-  <option value="N4">N4</option>
-  <option value="N3">N3</option>
   <option value="N2">N2</option>
-  <option value="N1">N1</option>
 </select>
 </td>
 <td colspan="2" align="right">
