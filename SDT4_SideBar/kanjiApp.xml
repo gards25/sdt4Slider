@@ -132,7 +132,7 @@ function getRandomInt(min, max) {
 
 <body style="background-color: #F2F2F2" onload="myFunction()">
 
-<table id="mytbl" style="border-collapse: collapse;height:94vh;background-color: #F2F2F2;" align="center" border="0" width="100%" bgcolor="#E8E8E8" cellspacing="0" cellpadding="0">
+<table id="mytbl" border="1" style="border-collapse: collapse;height:94vh;background-color: #F2F2F2;" align="center" border="0" width="100%" bgcolor="#E8E8E8" cellspacing="0" cellpadding="0">
 <tr><td colspan="2">
 JLPT Level&nbsp;
 <select onchange="selectLevel(this)">
