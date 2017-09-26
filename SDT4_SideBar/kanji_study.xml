@@ -2252,7 +2252,7 @@ $(document).ready(function(){
 
 var kanji = KanjiMaster_N5;
 var startpage = 0;
-var endpage = kanji.length;
+var endpage = kanji.length -1;
 var currentpage = getRandomInt(startpage, endpage);
 
 
@@ -2308,13 +2308,16 @@ function myFunction(){
   
   var element = document.getElementById("mydiv");
   var element2 = document.getElementById("mydiv2");
+  var element3 = document.getElementById("pagenumber");
   element.innerHTML = "";
   element2.innerHTML = "";
+  element3.innerHTML = "";
   var onyomi  = kanji[currentpage].onyomi.split(" ");
   var kunyomi = kanji[currentpage].kunyomi.split(" ");
 
   element.innerHTML = "<font size='12'>"+ kanji[currentpage].name+"</font>"; 
-  element2.innerHTML = "<font size='12'>"+ kanji[currentpage].name+"</font>"; 
+  element2.innerHTML = "<font size='12'>"+ kanji[currentpage].name+"</font>";
+  element3.innerHTML = (currentpage+1) + "/" + (endpage+1) ; 
   element.innerHTML += "<br/>";
   for(var i = 0; i < onyomi.length ; i++ ){
    if(onyomi[i] != ""){
@@ -2375,7 +2378,7 @@ function getRandomInt(min, max) {
 
 <table id="mytbl" style="border-collapse: collapse;height:94vh;background-color: #F2F2F2;" align="center" border="0" width="100%" bgcolor="#E8E8E8" cellspacing="0" cellpadding="0">
 <tr>
-<td colspan="3">
+<td colspan="2">
 JLPT Level&nbsp;
 <select onchange="selectLevel(this)">
   <option value="N5">N5</option>
@@ -2385,6 +2388,7 @@ JLPT Level&nbsp;
   <option value="N1">N1</option>
 </select>
 </td>
+<td><div id="pagenumber"/></td>
 </tr>
 <tr>
 <td>
