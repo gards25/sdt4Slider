@@ -7,7 +7,7 @@
 <head>
 <meta charset="UTF-8"/>
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdn.rawgit.com/gards25/sdt4Slider/master/SDT4_SideBar/vocabulary-n2.js"></script>
+<script type="text/javascript" src="https://rawgit.com/gards25/sdt4Slider/master/SDT4_SideBar/vocabulary-n2.js"></script>
 <script>
 $(document).ready(function(){
     $("#mydiv").hide();
