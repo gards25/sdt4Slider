@@ -5,9 +5,9 @@
 <![CDATA[<!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8" />
+<meta charset="UTF-8"/>
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<script type="text/javascript" src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4_SideBar/vocabulary-n2.js"></script>
+<script type="text/javascript" src="https://cdn.rawgit.com/gards25/sdt4Slider/master/SDT4_SideBar/vocabulary-n2.js"></script>
 <script>
 $(document).ready(function(){
     $("#mydiv").hide();
@@ -132,7 +132,7 @@ function getRandomInt(min, max) {
 
 <body style="background-color: #F2F2F2" onload="myFunction()">
 
-<table id="mytbl" border="1" style="border-collapse: collapse;height:94vh;background-color: #F2F2F2;" align="center" border="0" width="100%" bgcolor="#E8E8E8" cellspacing="0" cellpadding="0">
+<table id="mytbl" style="border-collapse: collapse;height:94vh;background-color: #F2F2F2;" align="center" border="0" width="100%" bgcolor="#E8E8E8" cellspacing="0" cellpadding="0">
 <tr><td colspan="2">
 JLPT Level&nbsp;
 <select onchange="selectLevel(this)">
