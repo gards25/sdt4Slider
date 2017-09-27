@@ -7,8 +7,11 @@
 <head>
 <meta charset="UTF-8"/>
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://rawgit.com/gards25/sdt4Slider/master/SDT4_SideBar/vocabulary-n1.js"></script>
 <script type="text/javascript" src="https://rawgit.com/gards25/sdt4Slider/master/SDT4_SideBar/vocabulary-n2.js"></script>
 <script type="text/javascript" src="https://rawgit.com/gards25/sdt4Slider/master/SDT4_SideBar/vocabulary-n3.js"></script>
+<script type="text/javascript" src="https://rawgit.com/gards25/sdt4Slider/master/SDT4_SideBar/vocabulary-n4.js"></script>
+<script type="text/javascript" src="https://rawgit.com/gards25/sdt4Slider/master/SDT4_SideBar/vocabulary-n5.js"></script>
 <script>
 $(document).ready(function(){
     $("#mydiv").hide();
@@ -24,7 +27,7 @@ $(document).ready(function(){
         $("#mydiv").show();
     });
 });
-var kanji = Vocabulary_N2;
+var kanji = Vocabulary_N4;
 var startpage = 0;
 var endpage = kanji.length - 1;
 var currentpage = getRandomInt(startpage, endpage);
@@ -137,8 +140,11 @@ function getRandomInt(min, max) {
 <tr><td colspan="2">
 JLPT Level&nbsp;
 <select onchange="selectLevel(this)">
-  <option value="N2">N2</option>
+  <option value="N2">N5</option>
+  <option value="N2">N4</option>
   <option value="N3">N3</option>
+  <option value="N2">N2</option>
+  <option value="N2">N1</option>
 </select>
 </td>
 <td colspan="2" align="right">
