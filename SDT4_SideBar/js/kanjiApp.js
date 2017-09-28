@@ -4,7 +4,7 @@ var endpage;
 var currentpage;
 
 $(document).ready(function(){
-    kanji = Vocabulary_N4;
+    kanji = Vocabulary_N5;
     startpage = 0;
     endpage = kanji.length - 1;
     currentpage = getRandomInt(startpage, endpage);
