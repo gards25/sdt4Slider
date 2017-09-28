@@ -22,11 +22,11 @@
 <tr><td colspan="2">
 JLPT Level&nbsp;
 <select onchange="selectLevel(this)">
-  <option value="N2">N5</option>
-  <option value="N2">N4</option>
+  <option value="N5">N5</option>
+  <option value="N4">N4</option>
   <option value="N3">N3</option>
   <option value="N2">N2</option>
-  <option value="N2">N1</option>
+  <option value="N1">N1</option>
 </select>
 </td>
 <td colspan="2" align="right">
