@@ -1,1 +1,24 @@
+.rcorners_green {
+	    color: white;
+	    border-radius: 4px;
+	    background: #1BAD90;
+	    padding: 3px;
+            margin: 1px;
+	    display:inline-block;  
+}
 
+.rcorners_blue {
+	    color: white;
+	    border-radius: 4px;
+	    background: #1B7BBA;
+	    padding: 3px;
+      margin: 1px;
+      display:inline-block;
+}
+
+.pagination a {
+	    color: black;
+	    padding: 8px 16px;
+	    text-decoration: none;
+	    transition: background-color .3s;
+}
