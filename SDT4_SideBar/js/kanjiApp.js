@@ -8,8 +8,7 @@ $(document).ready(function(){
     startpage = 0;
     endpage = kanji.length - 1;
     currentpage = getRandomInt(startpage, endpage);
-    $("#mydiv").hide();
-    $("#mydiv2").show();
+    
     $("#mydiv").click(function(){
         $("#mydiv").hide();
         $("#mydiv2").show();
@@ -18,6 +17,8 @@ $(document).ready(function(){
         $("#mydiv2").hide();
         $("#mydiv").show();
     });
+    
+    myFunction();
 });
 
 function nextPage(){
