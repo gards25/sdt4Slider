@@ -13,36 +13,9 @@
 <script type="text/javascript" src="https://rawgit.com/gards25/sdt4Slider/master/SDT4_SideBar/js/vocabulary-n4.js"></script>
 <script type="text/javascript" src="https://rawgit.com/gards25/sdt4Slider/master/SDT4_SideBar/js/vocabulary-n5.js"></script>
 <script type="text/javascript" src="https://rawgit.com/gards25/sdt4Slider/master/SDT4_SideBar/js/kanjiApp.js"></script>
-
-<style type="text/css">
-    
-    .rcorners_green {
-	    color: white;
-	    border-radius: 4px;
-	    background: #1BAD90;
-	    padding: 3px;
-            margin: 1px;
-	    display:inline-block;;  
-	}
-    .rcorners_blue {
-	    color: white;
-	    border-radius: 4px;
-	    background: #1B7BBA;
-	    padding: 3px;
-            margin: 1px;
-            display:inline-block;    
-	}
-   .pagination a {
-	    color: black;
-	    padding: 8px 16px;
-	    text-decoration: none;
-	    transition: background-color .3s;
-	}
-</style>
-
+<link rel="stylesheet" href="https://rawgit.com/gards25/sdt4Slider/master/SDT4_SideBar/css/styles.css">
 <title>Kanji Study</title>
 </head>
-
 <body style="background-color: #F2F2F2" onload="myFunction()">
 <table id="mytbl" style="border-collapse: collapse;height:94vh;background-color: #F2F2F2;" 
        align="center" border="0" width="100%" bgcolor="#E8E8E8" cellspacing="0" cellpadding="0">
