@@ -90,7 +90,7 @@ function myFunction(){
   var kunyomi = kanji[currentpage].kunyomi.split(" ");
 
   element.innerHTML = "<font size='12'>"+ kanji[currentpage].name+"</font>"; 
-  element2.innerHTML = "<h1 style='font-size: 500%'>"+ kanji[currentpage].name+"</h1>";
+  element2.innerHTML = "<font size='12'>"+ kanji[currentpage].name+"</font>";
   element3.innerHTML = (currentpage+1) + "/" + (endpage+1) ; 
   element.innerHTML += "<br/>";
   for(var i = 0; i < onyomi.length ; i++ ){
