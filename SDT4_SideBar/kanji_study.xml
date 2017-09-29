@@ -144,10 +144,10 @@ function getRandomInt(min, max) {
 	    transition: background-color .3s;
             bottom: 0;
     }
-    html *
-	{
-	   font-family: "Comic Sans MS", cursive, sans-serif;
-	}
+
+    body{
+	   font-family:"ヒラギノ角ゴ Pro W3";
+    }
    
 </style>
 <title>Kanji Study</title>
