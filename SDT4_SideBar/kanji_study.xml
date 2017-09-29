@@ -101,7 +101,7 @@ function myFunction(){
 
   for(var i = 0; i < kunyomi.length ; i++ ){
     if(kunyomi[i]!= ""){
-      element.innerHTML += "<font size='2'><span class='rcorners_blue'>" + kunyomi[i] + "</span></font>";
+      element.innerHTML += "<font size='2''><span class='rcorners_blue'>" + kunyomi[i] + "</span></font>";
     }
   }
 
@@ -142,8 +142,13 @@ function getRandomInt(min, max) {
 	    padding: 8px 16px;
 	    text-decoration: none;
 	    transition: background-color .3s;
-  bottom: 0;
+            bottom: 0;
+    }
+    html *
+	{
+	   font-family: "Comic Sans MS", cursive, sans-serif;
 	}
+   
 </style>
 <title>Kanji Study</title>
 </head>
