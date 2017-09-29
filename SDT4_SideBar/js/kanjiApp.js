@@ -86,9 +86,9 @@ function myFunction(){
     element2.innerHTML = "<font size='12'>"+ kanji[currentpage].Hiragana+"</font>";
   }  
   element.innerHTML += "<br/>";
-  element.innerHTML += "<font size='3'><span class='rcorners_blue'>" + kanji[currentpage].Hiragana  + "</span></font>";
+  element.innerHTML += "<font size='2'><span class='rcorners_blue'>" + kanji[currentpage].Hiragana  + "</span></font>";
   element.innerHTML += "<br/><br/>"; 
-  element.innerHTML += "<font size='5'>" + kanji[currentpage].English.replaceAll( "," , ", ") + "</font>"; 
+  element.innerHTML += "<font size='4'>" + kanji[currentpage].English.replaceAll( "," , ", ") + "</font>"; 
   $("#mydiv").hide();
   $("#mydiv2").show();
 }
